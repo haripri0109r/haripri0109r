@@ -1,0 +1,28 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081027"/>
+      <stop offset="1" stop-color="#1B0F38"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#102A62"/>
+      <stop offset="1" stop-color="#2B1F5C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+  <text x="56" y="74" fill="#DCE7FF" font-size="34" font-family="Segoe UI" font-weight="700">FocusTube Architecture</text>
+  <rect x="70" y="130" width="240" height="90" rx="16" fill="url(#node)" stroke="#5B88FF"/>
+  <text x="110" y="184" fill="#EAF1FF" font-size="24" font-family="Segoe UI">React Client</text>
+  <rect x="470" y="130" width="260" height="90" rx="16" fill="url(#node)" stroke="#5B88FF"/>
+  <text x="530" y="184" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Node API</text>
+  <rect x="900" y="130" width="240" height="90" rx="16" fill="url(#node)" stroke="#5B88FF"/>
+  <text x="958" y="184" fill="#EAF1FF" font-size="24" font-family="Segoe UI">MongoDB</text>
+  <rect x="260" y="360" width="300" height="90" rx="16" fill="url(#node)" stroke="#7BD7FF"/>
+  <text x="300" y="414" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Video Focus Engine</text>
+  <rect x="660" y="360" width="300" height="90" rx="16" fill="url(#node)" stroke="#A986FF"/>
+  <text x="730" y="414" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Analytics Queue</text>
+  <path d="M310 175H470" stroke="#95D3FF" stroke-width="4"/>
+  <path d="M730 175H900" stroke="#95D3FF" stroke-width="4"/>
+  <path d="M600 220V360" stroke="#95D3FF" stroke-width="4"/>
+  <path d="M810 220V360" stroke="#B89BFF" stroke-width="4"/>
+</svg>
