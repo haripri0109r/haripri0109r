@@ -35,6 +35,14 @@
   <img src="https://img.shields.io/github/stars/haripri0109r?style=for-the-badge&color=9B111E&labelColor=0D0D0D&label=STARS" alt="Stars" />
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/haripri0109r/haripri0109r/output/dist/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/haripri0109r/haripri0109r/output/dist/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/haripri0109r/haripri0109r/output/dist/github-contribution-grid-snake-dark.svg">
+  </picture>
+</p>
+
 ---
 
 ## Hero
