@@ -1,24 +1,24 @@
 <svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#061226"/>
-      <stop offset="1" stop-color="#16124A"/>
+      <stop stop-color="#0D0D0D"/>
+      <stop offset="1" stop-color="#1A1A1A"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
-  <text x="56" y="74" fill="#DCE7FF" font-size="34" font-family="Segoe UI" font-weight="700">Course Finder Architecture</text>
-  <rect x="90" y="140" width="240" height="92" rx="16" fill="#122A5F" stroke="#6EA8FF"/>
-  <text x="145" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Next.js UI</text>
-  <rect x="480" y="140" width="240" height="92" rx="16" fill="#1D1F61" stroke="#6EA8FF"/>
-  <text x="542" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Search API</text>
-  <rect x="860" y="140" width="260" height="92" rx="16" fill="#262566" stroke="#6EA8FF"/>
-  <text x="900" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Recommendation ML</text>
-  <rect x="190" y="390" width="280" height="92" rx="16" fill="#132D63" stroke="#7CD9FF"/>
-  <text x="254" y="445" fill="#EAF1FF" font-size="24" font-family="Segoe UI">PostgreSQL</text>
-  <rect x="560" y="390" width="280" height="92" rx="16" fill="#262066" stroke="#A88FFF"/>
-  <text x="628" y="445" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Redis Cache</text>
-  <path d="M330 186H480" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M720 186H860" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M600 232V390" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M720 232V390" stroke="#B89BFF" stroke-width="4"/>
+  <text x="56" y="74" fill="#F5F5F5" font-size="34" font-family="Segoe UI" font-weight="700">Course Finder Architecture</text>
+  <rect x="90" y="140" width="240" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="145" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">React UI</text>
+  <rect x="480" y="140" width="240" height="92" rx="16" fill="#1A1A1A" stroke="#D0D0D0"/>
+  <text x="542" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Search API</text>
+  <rect x="860" y="140" width="260" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="900" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Recommendation ML</text>
+  <rect x="190" y="390" width="280" height="92" rx="16" fill="#1A1A1A" stroke="#D0D0D0"/>
+  <text x="254" y="445" fill="#F5F5F5" font-size="24" font-family="Segoe UI">MySQL</text>
+  <rect x="560" y="390" width="280" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="628" y="445" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Firebase</text>
+  <path d="M330 186H480" stroke="#D0D0D0" stroke-width="4"/>
+  <path d="M720 186H860" stroke="#D0D0D0" stroke-width="4"/>
+  <path d="M600 232V390" stroke="#C1121F" stroke-width="4"/>
+  <path d="M720 232V390" stroke="#D0D0D0" stroke-width="4"/>
 </svg>

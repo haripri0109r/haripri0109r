@@ -1,24 +1,24 @@
 <svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="700" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#061126"/>
-      <stop offset="1" stop-color="#241248"/>
+      <stop stop-color="#0D0D0D"/>
+      <stop offset="1" stop-color="#1A1A1A"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="700" rx="28" fill="url(#bg)"/>
-  <text x="56" y="74" fill="#DCE7FF" font-size="34" font-family="Segoe UI" font-weight="700">Smart Research Assistant Architecture</text>
-  <rect x="80" y="140" width="280" height="92" rx="16" fill="#122A5F" stroke="#6EA8FF"/>
-  <text x="125" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">User Query UI</text>
-  <rect x="450" y="140" width="280" height="92" rx="16" fill="#1D1F61" stroke="#6EA8FF"/>
-  <text x="495" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Orchestrator API</text>
-  <rect x="820" y="140" width="300" height="92" rx="16" fill="#262566" stroke="#6EA8FF"/>
-  <text x="860" y="196" fill="#EAF1FF" font-size="24" font-family="Segoe UI">LLM Provider Layer</text>
-  <rect x="220" y="390" width="300" height="92" rx="16" fill="#132D63" stroke="#7CD9FF"/>
-  <text x="275" y="445" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Vector Database</text>
-  <rect x="620" y="390" width="300" height="92" rx="16" fill="#262066" stroke="#A88FFF"/>
-  <text x="660" y="445" fill="#EAF1FF" font-size="24" font-family="Segoe UI">Citation Engine</text>
-  <path d="M360 186H450" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M730 186H820" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M590 232V390" stroke="#95D3FF" stroke-width="4"/>
-  <path d="M870 232V390" stroke="#B89BFF" stroke-width="4"/>
+  <text x="56" y="74" fill="#F5F5F5" font-size="34" font-family="Segoe UI" font-weight="700">Smart Research Assistant Architecture</text>
+  <rect x="80" y="140" width="280" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="125" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">User Query UI</text>
+  <rect x="450" y="140" width="280" height="92" rx="16" fill="#1A1A1A" stroke="#D0D0D0"/>
+  <text x="495" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Orchestrator API</text>
+  <rect x="820" y="140" width="300" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="860" y="196" fill="#F5F5F5" font-size="24" font-family="Segoe UI">LLM Provider Layer</text>
+  <rect x="220" y="390" width="300" height="92" rx="16" fill="#1A1A1A" stroke="#D0D0D0"/>
+  <text x="275" y="445" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Vector Database</text>
+  <rect x="620" y="390" width="300" height="92" rx="16" fill="#2B0D10" stroke="#C1121F"/>
+  <text x="660" y="445" fill="#F5F5F5" font-size="24" font-family="Segoe UI">Citation Engine</text>
+  <path d="M360 186H450" stroke="#D0D0D0" stroke-width="4"/>
+  <path d="M730 186H820" stroke="#D0D0D0" stroke-width="4"/>
+  <path d="M590 232V390" stroke="#C1121F" stroke-width="4"/>
+  <path d="M870 232V390" stroke="#D0D0D0" stroke-width="4"/>
 </svg>

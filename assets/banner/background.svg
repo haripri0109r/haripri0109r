@@ -1,20 +1,20 @@
 <svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#060816" />
-      <stop offset="35%" stop-color="#0A1030" />
-      <stop offset="70%" stop-color="#1A0C40" />
-      <stop offset="100%" stop-color="#080815" />
+      <stop offset="0%" stop-color="#0D0D0D" />
+      <stop offset="35%" stop-color="#1A1A1A" />
+      <stop offset="70%" stop-color="#2B0D10" />
+      <stop offset="100%" stop-color="#0D0D0D" />
       <animate attributeName="x1" values="0;200;0" dur="12s" repeatCount="indefinite" />
       <animate attributeName="y2" values="500;420;500" dur="12s" repeatCount="indefinite" />
     </linearGradient>
     <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(380 120) rotate(15) scale(320 190)">
-      <stop stop-color="#00E6FF" stop-opacity="0.5" />
-      <stop offset="1" stop-color="#00E6FF" stop-opacity="0" />
+      <stop stop-color="#C1121F" stop-opacity="0.45" />
+      <stop offset="1" stop-color="#C1121F" stop-opacity="0" />
     </radialGradient>
     <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1240 320) rotate(30) scale(360 210)">
-      <stop stop-color="#944CFF" stop-opacity="0.45" />
-      <stop offset="1" stop-color="#944CFF" stop-opacity="0" />
+      <stop stop-color="#D0D0D0" stop-opacity="0.35" />
+      <stop offset="1" stop-color="#D0D0D0" stop-opacity="0" />
     </radialGradient>
     <pattern id="grid" x="0" y="0" width="44" height="44" patternUnits="userSpaceOnUse">
       <path d="M44 0H0V44" stroke="#76A2FF" stroke-opacity="0.11" />
@@ -38,10 +38,10 @@
   </ellipse>
 
   <g opacity="0.85" filter="url(#softGlow)">
-    <path d="M-50 420 C220 390, 420 490, 700 430 C980 370, 1260 420, 1660 360" stroke="#00B8FF" stroke-opacity="0.42" stroke-width="2" fill="none">
+    <path d="M-50 420 C220 390, 420 490, 700 430 C980 370, 1260 420, 1660 360" stroke="#C1121F" stroke-opacity="0.42" stroke-width="2" fill="none">
       <animate attributeName="d" dur="9s" repeatCount="indefinite" values="M-50 420 C220 390, 420 490, 700 430 C980 370, 1260 420, 1660 360;M-50 390 C220 450, 420 380, 700 450 C980 520, 1260 330, 1660 390;M-50 420 C220 390, 420 490, 700 430 C980 370, 1260 420, 1660 360" />
     </path>
-    <path d="M-30 330 C180 260, 460 360, 760 290 C1030 230, 1360 280, 1660 220" stroke="#A86BFF" stroke-opacity="0.42" stroke-width="2" fill="none">
+    <path d="M-30 330 C180 260, 460 360, 760 290 C1030 230, 1360 280, 1660 220" stroke="#D0D0D0" stroke-opacity="0.42" stroke-width="2" fill="none">
       <animate attributeName="d" dur="10s" repeatCount="indefinite" values="M-30 330 C180 260, 460 360, 760 290 C1030 230, 1360 280, 1660 220;M-30 250 C180 340, 460 230, 760 320 C1030 420, 1360 230, 1660 300;M-30 330 C180 260, 460 360, 760 290 C1030 230, 1360 280, 1660 220" />
     </path>
   </g>
