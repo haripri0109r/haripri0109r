@@ -74,23 +74,32 @@ def build_background(width: int, height: int, accent: tuple[int, int, int]) -> I
 
 def make_card(filename: str, title: str, subtitle: str, accent: tuple[int, int, int]) -> None:
     width, height = 1280, 720
-    img = build_background(width, height, accent)
-    draw = ImageDraw.Draw(img)
+    img = build_background(width, height, accent).convert("RGBA")
+    
+    # We draw on a separate transparent overlay to properly alpha blend the panel box
+    overlay = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    draw = ImageDraw.Draw(overlay)
 
     title_font = load_font(64, bold=True)
     sub_font = load_font(30)
     tag_font = load_font(23, bold=True)
     meta_font = load_font(24)
 
-    draw.text((86, 150), title, fill=(245, 245, 245), font=title_font)
-    draw.text((90, 255), subtitle, fill=(208, 208, 208), font=sub_font)
+    draw.text((86, 150), title, fill=(245, 245, 245, 255), font=title_font)
+    draw.text((90, 255), subtitle, fill=(208, 208, 208, 255), font=sub_font)
 
     panel = (90, 335, 540, 400)
     draw.rounded_rectangle(panel, radius=12, fill=(*accent, 78), outline=(*accent, 235), width=2)
-    draw.text((112, 353), "Production Portfolio Build", fill=(245, 245, 245), font=tag_font)
+    
+    # For very light accents, make text dark to ensure readability, else white
+    brightness = (accent[0] * 299 + accent[1] * 587 + accent[2] * 114) / 1000
+    text_color = (13, 13, 13, 255) if brightness > 180 else (245, 245, 245, 255)
+    
+    draw.text((112, 353), "Production Portfolio Build", fill=text_color, font=tag_font)
 
-    draw.text((90, 625), "github.com/haripri0109r", fill=(170, 170, 170), font=meta_font)
+    draw.text((90, 625), "github.com/haripri0109r", fill=(170, 170, 170, 255), font=meta_font)
 
+    img = Image.alpha_composite(img, overlay)
     img.save(OUT / filename, "PNG", optimize=True)
 
 
